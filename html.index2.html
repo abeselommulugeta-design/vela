@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Abeselom | Personal Website</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fc;
+            color: #222;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #102a56;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h2 {
+            color: white;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        /* Welcome section */
+        .hero {
+            background-color: #102a56;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 45px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #38bdf8;
+            color: #102a56;
+            padding: 14px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background-color: white;
+        }
+
+        /* General sections */
+        section {
+            padding: 65px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #102a56;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            font-size: 18px;
+            line-height: 1.7;
+        }
+
+        /* Hobbies */
+        .hobbies {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .hobby {
+            background-color: white;
+            padding: 30px;
+            width: 200px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px #00000015;
+        }
+
+        .hobby h3 {
+            color: #2563eb;
+            margin-bottom: 10px;
+        }
+
+        /* Contact */
+        #contact {
+            background-color: #dbeafe;
+        }
+
+        footer {
+            background-color: #102a56;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Mobile design */
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 5px;
+            }
+
+            .hero h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <h2>Abeselom</h2>
+
+        <div>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Welcome -->
+    <div class="hero" id="home">
+        <h1>Hello, I'm Abeselom!</h1>
+
+        <p>Welcome to my personal website.</p>
+
+        <a href="#about" class="btn">Discover More</a>
+    </div>
+
+    <!-- About Me -->
+    <section id="about">
+        <h2>About Me</h2>
+
+        <p>
+            Hello! My name is Abeselom.
+         graphics designer, photographer,video editer
+           i love creativity and learning new things.
+            I am currently learning web design
+            and developing my computer skills.
+        </p>and student
+    </section>
+
+    <!-- Hobbies -->
+    <section id="hobbies">
+        <h2>My Hobbies</h2>
+
+        <div class="hobbies">
+
+            <div class="hobby">
+                <h3>⚽ Football</h3>
+                <p>I enjoy football and sports.</p>
+            </div>
+
+            <div class="hobby">
+                <h3>💻 Technology</h3>
+                <p>I enjoy learning new things.</p>
+            </div>
+
+            <div class="hobby">
+                <h3>🎨 Design</h3>
+                <p>graphics designer ,video editor , and student</p>
+            </div>
+
+        </div>
+    </section>
+    <!-- contact -->
+    <section id="contact">
+        <h2>Contact Me 
+            in          ig       tg,       fb,            tiktok,
+            0904029612
+        </h2>
+
+        <p>Thank you for visting me!</p>
+
+        <p>Let's connect and share ideas.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Abeselom. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
